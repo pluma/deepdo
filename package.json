@@ -1,0 +1,32 @@
+{
+  "name": "deepdo",
+  "version": "0.1.0",
+  "description": "Mess with the properties of deeply nested objects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pluma/deepdo.git"
+  },
+  "scripts": {
+    "lint": "jshint index.js"
+  },
+  "keywords": [
+    "omit",
+    "pick",
+    "transform",
+    "mutate",
+    "object",
+    "array",
+    "map",
+    "keys"
+  ],
+  "author": "Alan Plum <me@pluma.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pluma/deepdo/issues"
+  },
+  "homepage": "https://github.com/pluma/deepdo",
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  }
+}
