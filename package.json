@@ -1,6 +1,6 @@
 {
   "name": "deepdo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mess with the properties of deeply nested objects.",
   "main": "index.js",
   "repository": {
