@@ -73,7 +73,7 @@ function _mutate(path, fn, source) {
   var key = null;
   while (path.length) {
     key = path.shift();
-    if (val.hasOwnProperty(key)) {
+    if (!val.hasOwnProperty(key)) {
       if (key === wildcard) {
         for (var k in val) {
           if (!val.hasOwnProperty(k)) continue;
